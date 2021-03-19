@@ -18,10 +18,10 @@ from pdf2image.exceptions import (
 )
 
 
-#Defaults in case the user fucks up because ofc they will
-DIRECTORY = "C:\\BINGO\\"
-PDFPATH = "C:\\BINGO\\Test.pdf"
-FILENAME = "Test.pdf"
+#You can set your defaults here
+DIRECTORY = ""
+PDFPATH = ""
+FILENAME = ""
 
 #Actual Functional Stuff
 def PdfToImages(Pdf):
@@ -74,13 +74,13 @@ def OKButtonFuncResult():
     DIRECTORY = Dir
     
     
-#Widgeeeeets
+#Widgets
 Window = tk.Tk()
 Window.title('Edge-ify')
 Window.geometry("500x260")
 PickFileFrame = tk.Frame()
   
-Title = tk.Label(Window,text="EDGE-IFY BY SOFYA FEDKINA")
+Title = tk.Label(Window,text="EDGE-IFY BY B4RR4CUDA")
 Title.config(font=("Courier", 20))
 
 ButtonExplore = tk.Button(PickFileFrame, text = "Browse Files...",command = BrowseFiles)
