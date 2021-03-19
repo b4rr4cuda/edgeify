@@ -2,9 +2,7 @@
 """
 Edge-ify
 
-Created on Thu Mar 18 21:35:14 2021
-
-@author: sofia
+@author: b4rr4cuda
 """
 from PIL import Image, ImageEnhance
 import numpy as np
